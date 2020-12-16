@@ -152,6 +152,7 @@ class BYJMotor(object):
 
         except KeyboardInterrupt:
             print("User Keyboard Interrupt : RpiMotorLib: ")
+            raise KeyboardInterrupt
         except Exception as motor_error:
             print(sys.exc_info()[0])
             print(motor_error)
