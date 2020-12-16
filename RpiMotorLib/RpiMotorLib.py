@@ -27,6 +27,7 @@ import RPi.GPIO as GPIO
 
 # ==================== CLASS SECTION ===============================
 
+print(pedromoura)
 
 class BYJMotor(object):
     """class to control a 28BYJ-48 stepper motor with ULN2003 controller
